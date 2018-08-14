@@ -25,10 +25,12 @@ def printer(name)
 rooms = []
 name.each do |i|
   s = badge_maker(i)
+  puts s
 end
 name.each_with_index {|name, index|
   rooms = index
   t = ("Hello, #{name}! You'll be assigned to room #{index +1}!")
+  puts t
 }
-puts  
+
 end
