@@ -23,7 +23,7 @@ end
 
 def printer(rooms)
 #  assign_rooms(name)
-#  rooms.each |i|
+#  message.each |i|
 #    puts i
 #  end
 end
