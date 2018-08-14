@@ -22,15 +22,13 @@ def assign_rooms(name)
 end
 
 def printer(name)
-messages = []
 rooms = []
 name.each do |i|
   s = badge_maker(i)
-  messages.push(s)
 end
 name.each_with_index {|name, index|
   rooms = index
-  messages.push("Hello, #{name}! You'll be assigned to room #{index +1}!")
+  t = ("Hello, #{name}! You'll be assigned to room #{index +1}!")
 }
-puts messages
+puts s + t 
 end
