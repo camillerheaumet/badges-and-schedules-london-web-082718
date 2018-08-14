@@ -25,6 +25,6 @@ def printer(name)
 rooms = []
 name.each do |i|
   s = badge_maker(i)
+  puts s
 end
-puts s
 end
