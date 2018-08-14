@@ -23,7 +23,7 @@ end
 
 def printer(name)
 messages = []
-rooms[]
+rooms = []
 name.each do |i|
   s = badge_maker(i)
   messages.push(s)
