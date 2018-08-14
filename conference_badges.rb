@@ -22,8 +22,8 @@ def assign_rooms(name)
 end
 
 def printer(rooms)
-  assign_rooms(name)
-  rooms.each |i|
-    puts i
-  end
+#  assign_rooms(name)
+#  rooms.each |i|
+#    puts i
+#  end
 end
