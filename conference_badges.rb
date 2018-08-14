@@ -21,9 +21,9 @@ def assign_rooms(name)
   message
 end
 
-def printer(rooms)
+def printer(name)
 
-  puts = batch_badge_creator(messages)
-  puts = assign_rooms(message)
+  puts = batch_badge_creator(name)
+  puts = assign_rooms(name)
 
 end
