@@ -13,17 +13,16 @@ end
 
 def assign_rooms(name)
   rooms = []
-  message = []
+  messages = []
   name.each_with_index {|name, index|
     rooms = index
-    message.push("Hello, #{name}! You'll be assigned to room #{index +1}!")
+    messages.push("Hello, #{name}! You'll be assigned to room #{index +1}!")
   }
-  message
+  messages
 end
 
 def printer(name)
-for n in name
-  puts = batch_badge_creator(name)
-  puts = assign_rooms(name)
+messages = []
+
 end
 end
