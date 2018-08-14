@@ -30,5 +30,5 @@ name.each_with_index {|name, index|
   rooms = index
   t = ("Hello, #{name}! You'll be assigned to room #{index +1}!")
 }
-puts s + t 
+puts s + t
 end
