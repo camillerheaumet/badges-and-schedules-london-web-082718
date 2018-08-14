@@ -26,5 +26,5 @@ rooms = []
 name.each do |i|
   s = badge_maker(i)
 end
-puts s 
+puts s
 end
